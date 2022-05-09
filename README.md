@@ -4,7 +4,7 @@
 
 <lu>
   <li>Foi utilizado o hook useState</li>
-  <li>Aqui foi utilizado a API viaCep para fazer requisições com o Axios.</li></lu>
+  <li>Foi utilizado a API viaCep para fazer requisições com o Axios.</li></lu>
  <br>
   <br>
 
