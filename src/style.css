@@ -1,0 +1,54 @@
+.container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  background-color:rgb(3, 7, 35);
+}
+.title{
+  font-size:85px;
+  color:#fff;
+  animation: flipTitle 2s;
+}
+.containerInput{
+  display:flex;
+  padding:15px;
+  margin:34px 0;
+  box-shadow: 1px 1px 8px rgb(253, 253, 253);
+}
+.containerInput input{
+  
+ 
+  height:30px;
+  margin-right: 10px;
+}
+.main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  background: #fff;
+  width: 500px;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+.main span{
+  margin-bottom: 19px;
+}
+@keyframes flipTitle {
+
+  from {
+    transform:rotateX(90deg);
+  }to{
+    transform:rotateX(0deg);
+  }
+}
+@media (max-width: 591px){
+  .title{
+    font-size:45px;
+  }
+  .main{
+    width: 300px;
+  }
+}
